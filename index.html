@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <title>Lista de Alumnos</title>
+</head>
+<body id="page">
+    <div class="container">
+
+        <div class="mt-4 mb-3">
+            <label for="" class="h6">Buscar: </label>
+            <input type="search" name="" id="buscador" class="col-lg-11" placeholder="Ingrese un nombre o DNI y presione enter">
+        </div>
+        
+        <table class="table table-responsive table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th class='text-center'>N°</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th class='text-center'>Edad</th>
+                    <th class='text-center'>DNI N°</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="table">
+              
+            </tbody>
+        </table>
+    </div>
+
+    <div class="formulario">
+        <form onsubmit="return false" id="formulario">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombres: <input type="text" name="" id="name">
+                <p id="errorName"></p>
+                Apellidos: <input type="text" name="" id="lastname">
+                <p id="errorLastName"></p>
+                Edad: <input type="number" name="" id="age">
+                <p id="errorAge"></p>
+                DNI Nº: <input type="number" name="" id="dni">
+                <p id="errorDni"></p>  
+                <button id="botonGuardar" disabled>Guardar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

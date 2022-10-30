@@ -1,0 +1,40 @@
+.formulario form fieldset{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 7rem;
+}
+
+fieldset{
+    color: rgb(86, 81, 81);
+    font-weight: bold;
+    font-family:initial;
+}
+legend{
+    color: rgb(116, 56, 213);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    height: 2.3rem;
+    border-radius: 0.3rem;
+    color: rgb(45, 44, 44);
+    padding-left: 10px;
+}
+
+button{
+    height: 2.3rem;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    
+}
+
+
+p{
+    color:red;
+}
+
